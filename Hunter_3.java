@@ -18,11 +18,17 @@ public class Hunter_3 {
 			ar.add(i);
 		}
 	}
+		if(ar.size()==0){
+		
+		System.out.print(-1);
+		}
+		else{
 		int a[]=new int[ar.size()];
 		for(int i=0;i<a.length;i++) {
 			a[i]=(int)ar.get(i);
 			
 		System.out.print(a[i]+" ");
+		}
 		}
 		
 	}
